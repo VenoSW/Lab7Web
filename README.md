@@ -225,7 +225,7 @@ Universitas Pelita Bangsa
             echo '<br> Gaji: Rp. 7.000.000,-';
         }elseif($pekerjaan == "Staff"){
             echo '<br> Gaji: Rp. 5.000.000,-';
-        }else($pekerjaan == "Operator"){
+        }elseif($pekerjaan == "Operator"){
             echo '<br> Gaji: Rp. 4.000.000,-';
         }
     ?>
